@@ -240,3 +240,50 @@ header{
     color: var(--secondary-text-color);
     font-weight: 500;
 }
+
+/* example sections */
+
+.example-section{
+    margin-top: 50px;
+}
+
+.example-card{
+          width: 23%;
+          position: relative;
+          min-height: 300px;
+            transition: 0.2s ease-out;
+          background: black;
+          background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);
+}
+.card-text{
+   position: absolute;
+   bottom: 20px;
+   left: 20px;
+   right: 20px;
+   color: white; 
+}
+.example-area{
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+
+
+.cta-section-container{
+    flex-direction: column;
+    gap: 30px;
+    color:white;
+}
+
+.cta-section{
+    padding: 120px var(--padding-inline-section) 80px;
+    background-color: #183b54;
+}
+
+.cta-section-container p{
+    color: white;
+    margin-top: 20px;
+}
