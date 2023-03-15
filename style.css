@@ -166,8 +166,10 @@ header{
 
 /*  features section */
 .features-sections{
-    padding:20px var(--padding-inline-section) 0;
-
+    padding:40px var(--padding-inline-section) 0;
+    background-image: url(./assets/asset\ 34.svg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .features-header{
     text-align: center;
