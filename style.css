@@ -303,3 +303,13 @@ footer{
     padding-block:80px ;
     background-color:#ebf2f8;
 }
+
+/* sub footer */
+.subfooter{
+    background-color:#b9cde4;
+    padding: var(--padding-inline-section);
+}
+.subfooter-container{
+    justify-content: center;
+    gap: 30px;
+}
